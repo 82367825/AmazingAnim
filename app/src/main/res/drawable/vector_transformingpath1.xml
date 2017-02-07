@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportHeight="12"
+    android:viewportWidth="12">
+
+    <!-- This path draws an orange triangular play icon. -->
+    <group
+        android:pivotX="6"
+        android:pivotY="6"
+        android:scaleX="0.5"
+        android:scaleY="0.5">
+        <group
+            android:pivotX="6"
+            android:pivotY="6"
+            android:rotation="90">
+            <path
+                android:fillColor="#FF9800"
+                android:pathData="M 4,2.5 L 4,9.5 L 9.5,6 Z"/>
+        </group>
+    </group>
+
+</vector>
