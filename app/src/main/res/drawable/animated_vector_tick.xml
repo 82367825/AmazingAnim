@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
     android:drawable="@drawable/vector_morphing_tick">
-    
+
     <target
-        android:animation=""
-        android:name="appear"
-        >
-        <aapt:attr name="android:animation">
-        </aapt:attr>    
-    </target>    
-    
+        android:name="tick"
+        android:animation="@animator/animation_tick_appear">
+    </target>
+
     <target
-        android:animation=""
-        android:name="disappear"
-        />
-    
+        android:name="tick"
+        android:animation="@animator/animation_tick_disappear">
+    </target>
+
 </animated-vector>
