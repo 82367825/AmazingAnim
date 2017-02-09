@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
-
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="100"
+        android:duration="500"
         android:interpolator="@android:interpolator/linear"
         android:propertyName="rotation"
-        android:valueFrom="90"
+        android:valueFrom="180"
         android:valueTo="0"
         />
-    
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:interpolator/linear"
+        android:propertyName="scaleX"
+        android:valueFrom="0.2"
+        android:valueTo="1"/>
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:interpolator/linear"
+        android:propertyName="scaleY"
+        android:valueFrom="0.2"
+        android:valueTo="1"/>        
 </set>

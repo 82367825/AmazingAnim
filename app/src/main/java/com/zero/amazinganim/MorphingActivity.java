@@ -1,6 +1,5 @@
 package com.zero.amazinganim;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -14,6 +13,6 @@ public class MorphingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_morphingpath);
+        setContentView(R.layout.activity_morphing);
     }
 }

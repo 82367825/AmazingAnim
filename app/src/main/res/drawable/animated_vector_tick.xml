@@ -8,9 +8,4 @@
         android:animation="@animator/animation_tick_appear">
     </target>
 
-    <target
-        android:name="tick"
-        android:animation="@animator/animation_tick_disappear">
-    </target>
-
 </animated-vector>
