@@ -5,44 +5,34 @@
     android:height="10dp"
     android:viewportHeight="10"
     android:viewportWidth="360">
-    <group
-        android:name="progress_bar_group">
-        <path
-            android:name="path_bg"
-            android:strokeColor="#EEEEEE"
-            android:strokeWidth="10"
-            android:pathData="M 0,0 L 360,0"
-            />
-        <path
-            android:name="path_track"/>
-    </group>
 
-    <!--<group-->
-        <!--android:name="progress_group"-->
-        <!--android:translateX="180"-->
-        <!--android:translateY="5">-->
-        <!--<path-->
-            <!--android:name="background_track"-->
-            <!--android:fillAlpha="?android:attr/disabledAlpha"-->
-            <!--android:fillColor="?attr/colorControlActivated"-->
-            <!--android:pathData="M -180,-1 l 360,0 l 0,2 l -360,0 Z"/>-->
-        <!--<group-->
-            <!--android:name="rect2_grp"-->
-            <!--android:scaleX="0.1"-->
-            <!--android:translateX="-197.60001">-->
-            <!--<path-->
-                <!--android:name="rect2"-->
-                <!--android:fillColor="?attr/colorControlActivated"-->
-                <!--android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>-->
-        <!--</group>-->
-        <!--<group-->
-            <!--android:name="rect1_grp"-->
-            <!--android:scaleX="0.1"-->
-            <!--android:translateX="-522.59998">-->
-            <!--<path-->
-                <!--android:name="rect1"-->
-                <!--android:fillColor="?attr/colorControlActivated"-->
-                <!--android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>-->
-        <!--</group>-->
-    <!--</group>-->
+    <group
+        android:name="progress_group"
+        >
+        <path
+            android:name="background_track"
+            android:strokeColor="#898989"
+            android:strokeWidth="2"
+            android:pathData="M 0,1 L 360,1"/>
+        <group
+            android:name="track_1"
+            android:scaleX="0.1"
+            android:translateX="-197.60001">
+            <path
+                android:name="rect2"
+                android:fillColor="?attr/colorControlActivated"
+                android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>
+        </group>
+        <group
+            android:name="track_2"
+            android:scaleX="0.1"
+            android:translateX="-522.59998">
+            <path
+                android:name="rect1"
+                android:fillColor="?attr/colorControlActivated"
+                android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>
+        </group>
+    </group>
+    
+    
 </vector>
