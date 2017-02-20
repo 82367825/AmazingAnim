@@ -3,4 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/vector_morphing_progressbar"
     >
+    
+    <target
+        android:animation="@animator/animation_progressbar"
+        android:name="progress_track"/>
+    
+    
 </animated-vector>   
