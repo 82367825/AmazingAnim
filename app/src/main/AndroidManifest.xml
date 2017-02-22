@@ -24,6 +24,7 @@
         <activity android:name=".MorphingNumActivity"></activity>
         <activity android:name=".MorphingTickActivity"></activity>
         <activity android:name=".MorphingProgressBarActivity"></activity>
+        <activity android:name=".MorphingFingerActivity"></activity>
         
     </application>
 

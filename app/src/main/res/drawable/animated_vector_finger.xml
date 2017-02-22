@@ -1,0 +1,24 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_morphing_finger">
+    <target
+        android:animation="@animator/animation_finger5_on"
+        android:name="ridge_5_path"
+        />
+    <target
+        android:animation="@animator/animation_finger4_on"
+        android:name="ridge_4_path"
+        />
+    <target
+        android:animation="@animator/animation_finger3_on"
+        android:name="ridge_3_path"
+        />
+    <target
+        android:animation="@animator/animation_finger2_on"
+        android:name="ridge_2_path"
+        />
+    <target
+        android:animation="@animator/animation_finger1_on"
+        android:name="ridge_1_path"
+        />
+</animated-vector>
