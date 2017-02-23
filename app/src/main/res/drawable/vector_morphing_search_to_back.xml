@@ -27,13 +27,13 @@
             android:pathData="M16.7017297,12.6957157 L24.7043962,4.69304955"
             android:strokeColor="#000000"
             android:strokeWidth="3"
-            android:trimPathEnd="0"/>
+            android:trimPathEnd="1"/>
 
         <path
             android:name="arrow_head_bottom"
             android:pathData="M16.7107986,11.2764828 L24.7221527,19.2878361"
             android:strokeColor="#000000"
             android:strokeWidth="3"
-            android:trimPathEnd="0"/>
+            android:trimPathEnd="1"/>
     </group>
 </vector>

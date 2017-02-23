@@ -2,23 +2,23 @@
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/search"
-        android:drawable="@drawable/vector_morphing_search"
-        />
-    
-    <item
         android:id="@+id/back"
         android:state_checked="true"
-        android:drawable="@drawable/vector_morphing_back"/>
+        android:drawable="@drawable/vector_morphing_search"/>
+    
+    <item
+        android:id="@+id/search"
+        android:drawable="@drawable/vector_morphing_back"
+        />
     
     <transition
-        android:fromId="@+id/search"
-        android:toId="@+id/back"
+        android:fromId="@id/search"
+        android:toId="@id/back"
         android:drawable="@drawable/animated_vector_search_to_back"/>
     
     <transition
-        android:fromId="@+id/back"
-        android:toId="@+id/search"
+        android:fromId="@id/back"
+        android:toId="@id/search"
         android:drawable="@drawable/animated_vector_back_to_search"/>
     
     

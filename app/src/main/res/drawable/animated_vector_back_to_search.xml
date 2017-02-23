@@ -3,13 +3,19 @@
     android:drawable="@drawable/vector_morphing_search_to_back">
 
     <target
-        android:animation="@animator/animation_search_to_back_stem_search"
+        android:animation="@animator/animation_back_to_search_stem"
         android:name="stem"/>
     <target
-        android:animation="@animator/animation_search_to_back_circle_search"
+        android:animation="@animator/animation_back_to_search_circle"
         android:name="search_circle"/>
     <target
-        android:animation="@animator/animation_search_to_back_arrow_search"
+        android:animation="@animator/animation_back_to_search_arrow"
         android:name="arrow_head"/>
+    <target
+        android:animation="@animator/animation_back_to_search_arrow_top"
+        android:name="arrow_head_top"/>
+    <target
+        android:animation="@animator/animation_back_to_search_arrow_bottom"
+        android:name="arrow_head_bottom"/>
 
 </animated-vector>
