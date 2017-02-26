@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_morphing_arrow">
+
+    <target
+        android:animation="@animator/animation_arrow_to_menu_rectangle_1"
+        android:name="rectangle_1"/>
+    <target
+        android:animation="@animator/animation_arrow_to_menu_rectangle_2"
+        android:name="rectangle_2"/>
+    <target
+        android:animation="@animator/animation_arrow_to_menu_rectangle_3"
+        android:name="rectangle_3"/>
+    
+    <target
+        android:animation="@animator/animation_arrow_1_to_menu_point_1"
+        android:name="rectangle_path_1"/>
+
+    <target
+        android:animation="@animator/animation_arrow_2_to_menu_point_2"
+        android:name="rectangle_path_2"/>
+
+    <target
+        android:animation="@animator/animation_arrow_3_to_menu_point_3"
+        android:name="rectangle_path_3"/>
+
+</animated-vector>

@@ -26,6 +26,7 @@
         <activity android:name=".MorphingProgressBarActivity"></activity>
         <activity android:name=".MorphingFingerActivity"></activity>
         <activity android:name=".MorphingSearchToBackActivity"></activity>
+        <activity android:name=".MorphingMenuActivity"></activity>
         
     </application>
 

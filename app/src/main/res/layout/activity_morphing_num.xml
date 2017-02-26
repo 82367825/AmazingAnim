@@ -4,4 +4,14 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_centerInParent="true"
+        android:src="@drawable/animated_sl_digits"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    
+    
+    
 </RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/arrow"
+        android:state_checked="true"
+        android:drawable="@drawable/vector_morphing_arrow"/>
+
+    <item
+        android:id="@+id/menu"
+        android:drawable="@drawable/vector_morphing_menu"
+        />
+
+    <transition
+        android:fromId="@id/menu"
+        android:toId="@id/arrow"
+        android:drawable="@drawable/animated_vector_pathmorphing_menu_arrow"/>
+
+    <transition
+        android:fromId="@id/arrow"
+        android:toId="@id/menu"
+        android:drawable="@drawable/animated_vector_pathmorphing_arrow_menu"/>
+
+
+</animated-selector>
