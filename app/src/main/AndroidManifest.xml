@@ -26,9 +26,11 @@
         <activity android:name=".MorphingProgressBarActivity"></activity>
         <activity android:name=".MorphingFingerActivity"></activity>
         <activity android:name=".MorphingSearchToBackActivity"></activity>
-        <activity android:name=".MorphingMenuActivity"></activity>
         <activity android:name=".MorphingHandwritingActivity"></activity>
+        <activity android:name=".MorphingPlusToMinusActivity"></activity>
         
+        <activity android:name=".ClipPathEyesActivity"></activity>
+        <activity android:name=".ClipPathHeartActivity"></activity>
     </application>
 
 </manifest>
