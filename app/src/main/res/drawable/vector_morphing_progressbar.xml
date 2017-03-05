@@ -5,23 +5,23 @@
     android:height="10dp"
     android:viewportHeight="10"
     android:viewportWidth="360">
-    
+
     <group
-        android:name="background_track"
-        >
-        <path android:name="background_track_path"
-              android:fillColor="#DDDDDD"
-              android:pathData="M 0,0 L 360,0 L 360,10 L 0,10 z"
-              />
-    </group>
-    
-    <group
-        android:name="progress_track1"
-        >
+        android:name="progress_group"
+        android:translateX="180"
+        android:translateY="5">
         <path
-            android:name="progress_track_path1"
-            android:fillColor="#877777"
-            android:pathData="M -360,0 L -20,0 L -20,10 L -360,10 Z"
-            />
+            android:name="background_track"
+            android:fillColor="#DDDDDD"
+            android:pathData="M -180,-1 l 360,0 l 0,2 l -360,0 Z"/>
+        <group
+            android:name="progress_track"
+            android:scaleX="0.1"
+            android:translateX="-197.60001">
+            <path
+                android:name="rect2"
+                android:fillColor="#877777"
+                android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>
+        </group>
     </group>
 </vector>
