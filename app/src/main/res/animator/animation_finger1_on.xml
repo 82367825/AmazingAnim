@@ -12,7 +12,7 @@
         android:valueTo="0"
         android:valueType="floatType"/>
     <objectAnimator
-        android:duration="216"
+        android:duration="650"
         android:interpolator="@android:interpolator/linear"
         android:propertyName="trimPathEnd"
         android:valueFrom="0"

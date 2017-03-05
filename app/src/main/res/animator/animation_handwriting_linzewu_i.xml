@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <objectAnimator
-        android:duration="50"
+        android:duration="10"
         android:interpolator="@android:interpolator/linear"
         android:propertyName="trimPathEnd"
         android:valueFrom="0"
-        android:valueTo="0"
-        android:valueType="floatType"/>
+        android:valueTo="0"/>
+    
     <objectAnimator
-        android:duration="500"
+        android:duration="100"
+        android:startOffset="300"
         android:interpolator="@android:interpolator/linear"
         android:propertyName="trimPathEnd"
         android:valueFrom="0"
-        android:valueTo="1"
-        android:valueType="floatType"/>
+        android:valueTo="1"/>
     
 </set>
