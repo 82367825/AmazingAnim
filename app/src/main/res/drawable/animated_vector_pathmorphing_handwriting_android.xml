@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_morphing_handwriting_android">
+    
+    <target
+        android:animation="@animator/animation_android_andro"
+        android:name="andro"/>
+    
+    <target
+        android:animation="@animator/animation_android_id"
+        android:name="id"/>
+
+    <target
+        android:animation="@animator/animation_android_a_stroke"
+        android:name="a_stroke"/>
+
+    <target
+        android:animation="@animator/animation_android_i_dot"
+        android:name="i_dot"/>
+
+    <target
+        android:animation="@animator/animation_android_d"
+        android:name="d"/>
+
+    <target
+        android:animation="@animator/animation_android_esig"
+        android:name="esig"/>
+
+    <target
+        android:animation="@animator/animation_android_n"
+        android:name="n"/>
+
+    <target
+        android:animation="@animator/animation_android_second_i_dot"
+        android:name="second_i_dot"/>
+
+    
+</animated-vector>

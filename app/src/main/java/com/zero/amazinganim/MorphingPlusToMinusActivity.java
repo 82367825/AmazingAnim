@@ -7,11 +7,10 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * @author linzewu
- * @date 2017/2/26
+ * Created by linzewu on 17-2-28.
  */
 
-public class MorphingMenuActivity extends AppCompatActivity {
+public class MorphingPlusToMinusActivity extends AppCompatActivity {
 
     private ImageView mImageView;
     private boolean mIsChecked = false;
@@ -19,8 +18,7 @@ public class MorphingMenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_morphing_menu);
-
+        setContentView(R.layout.activity_morphing_plus_to_minus);
 
         mImageView = (ImageView) findViewById(R.id.imageview);
         mImageView.setOnClickListener(new View.OnClickListener() {

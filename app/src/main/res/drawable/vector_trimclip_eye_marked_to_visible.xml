@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:tint="?attr/colorControlNormal"
+    android:viewportHeight="24"
+    android:viewportWidth="24">
+
+    <path
+        android:name="strike_through"
+        android:pathData="@string/path_password_strike_through"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="square"
+        android:strokeWidth="1.8"/>
+
+    <group>
+        <clip-path
+            android:name="eye_mask"
+            android:pathData="@string/path_password_eye_mask_strike_through"/>
+        <path
+            android:name="eye"
+            android:fillColor="@android:color/white"
+            android:pathData="@string/path_password_eye"/>
+    </group>
+</vector>
