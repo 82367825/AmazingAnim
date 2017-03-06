@@ -31,6 +31,9 @@
         
         <activity android:name=".ClipPathEyesActivity"></activity>
         <activity android:name=".ClipPathHeartActivity"></activity>
+        
+        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".DownloadActivity"></activity>
     </application>
 
 </manifest>

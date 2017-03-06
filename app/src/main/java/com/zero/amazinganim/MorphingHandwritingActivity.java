@@ -23,16 +23,16 @@ public class MorphingHandwritingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_morphing_handwriting);
 
-//        mImageView = (ImageView) findViewById(R.id.imageview);
-//        AnimatedVectorDrawableCompat animatedVectorDrawableCompat = AnimatedVectorDrawableCompat.create(
-//                this, R.drawable.animated_vector_pathmorphing_handwriting_android);
-//        mImageView.setImageDrawable(animatedVectorDrawableCompat);
-//        mImageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ((Animatable)mImageView.getDrawable()).start();
-//            }
-//        });
+        mImageView = (ImageView) findViewById(R.id.imageview);
+        AnimatedVectorDrawableCompat animatedVectorDrawableCompat = AnimatedVectorDrawableCompat.create(
+                this, R.drawable.animated_vector_pathmorphing_handwriting_android);
+        mImageView.setImageDrawable(animatedVectorDrawableCompat);
+        mImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((Animatable)mImageView.getDrawable()).start();
+            }
+        });
 
 
         mImageView2 = (ImageView) findViewById(R.id.imageview2);
